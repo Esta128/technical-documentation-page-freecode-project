@@ -1,0 +1,133 @@
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+body{
+    margin: 8px;
+}
+
+*{
+    top: 10px;
+}
+
+.nav{
+    display:block
+}
+
+#navbar{
+    width: 290px;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid;
+    border-color: rgba(0, 39, 39, 0.4);
+}
+
+.main{
+    display: block;
+    
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 315px;
+    padding: 20px 80px;
+    margin-bottom: 110px;
+    font-weight: 300;
+}
+
+header{
+    margin: 10px;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#main-doc header{
+    text-align: left;
+    margin: 0px;
+}
+
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#navbar li{
+    color: #4d4e53;
+    list-style: none;
+    position: relative;
+    width: 100%;
+
+}
+
+#navbar a:hover{
+    background-color: rgb(252, 198, 198);
+    width: 220px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#navbar a:focus{
+    background-color: rgb(185, 35, 35);
+    color: #ffffff;
+    width: 220px;
+    margin-left: 10px;mar
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#navbar ul {
+    height: 90%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+section{
+    padding-top: 30px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7be;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+article{
+    line-height: 1.8;
+}
+
+ .main-section.one{
+     padding-top: 10px;
+}
+
+/*tablet media query - ipads 1024px*/
+
+@media (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
